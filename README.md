@@ -1,1 +1,1 @@
-Simple template for starting front end projects. :)
+front end testing stuff (NOT A REAL PROJECT)
