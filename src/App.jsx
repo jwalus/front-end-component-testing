@@ -1,8 +1,15 @@
-import { File } from './components'
+import { Nav, Hero } from './components'
 
 const App = () => (
     <div>
-      <File />
+      {/* Header */}
+      <div className='bg-blue-900'>
+        <Nav />
+      </div>
+      {/* Body */}
+      <div>
+        <Hero />
+      </div>
     </div>
 )
 

@@ -1,5 +1,7 @@
-import File from "./File"
+import Nav from "./Nav"
+import Hero from "./Hero"
 
 export {
-    File
+    Nav,
+    Hero
 }
