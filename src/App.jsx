@@ -1,4 +1,4 @@
-import { Nav, Hero } from './components'
+import { Nav, DropMenuNav } from './components'
 
 const App = () => (
     <div>
@@ -7,8 +7,8 @@ const App = () => (
         <Nav />
       </div>
       {/* Body */}
-      <div>
-        <Hero />
+      <div className='bg-gray-200'>
+        <DropMenuNav />
       </div>
     </div>
 )

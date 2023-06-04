@@ -75,7 +75,7 @@ const Nav = () => {
       {/* Mobile Navigation */}
       <div ref={mobileNavRef}>
         {showMobileNav && (
-          <ul className="text-white font-semibold absolute right-0 top-16 bg-gray-900 w-full h-full pt-[100px] flex flex-col text-center leading-[100px] text-[22px] opacity-90">
+          <ul className="text-white font-semibold absolute right-0 top-16 bg-blue-900 w-full h-full pt-[100px] flex flex-col text-center leading-[100px] text-[22px] opacity-90">
             {Links.map(Link => (
               <li
                 key={Link.name}
