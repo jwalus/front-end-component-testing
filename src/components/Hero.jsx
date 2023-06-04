@@ -2,7 +2,7 @@ import { herovideo } from '../assets';
 
 const Hero = () => {
   return (
-    <div className="xm:mx-4 xl:mx-56 xxl:mx-64">
+    <div className="xm:mx-4 xl:mx-56 xxl:mx-64 pt-12">
       <div className="w-full flex xm:flex-col md:flex-row">
         <div className="flex flex-col">
           <h1>BuiltIn is your one stop shop for tech related news.</h1>
